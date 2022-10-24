@@ -60,3 +60,19 @@ p.foot {
   display: flex;
   justify-content: space-evenly;
 }
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 780px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
